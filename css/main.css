@@ -116,9 +116,6 @@ a {
     clear: both;
 }
 /* Content */
-#content {
-    padding: 0px 0px 0px 0px;
-}
 .post {
     overflow: hidden;
     margin-bottom: 40px;
