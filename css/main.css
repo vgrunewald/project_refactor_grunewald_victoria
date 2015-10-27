@@ -158,22 +158,16 @@ a {
     padding-top: 20px;
     margin-bottom: 30px;
 }
-.more {
+.button {
     display: block;
     padding: 5px 5px;
-    margin-right: 10px;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
 }
-.comments {
-    display: block;
-    padding: 5px 5px;
-    background: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
+.button + .button {
+    margin-top: 5px;
 }
 /* Sidebar */
 #sidebar {
