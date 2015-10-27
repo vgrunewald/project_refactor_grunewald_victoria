@@ -171,7 +171,6 @@ a {
 }
 .button {
     display: block;
-    padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -185,6 +184,18 @@ a {
 }
 .button + .button {
     margin-top: 5px;
+}
+@media all and (min-width: 600px) {
+    .button {
+        display: inline-block;
+        padding: 0 3em;
+    }
+    .links {
+        text-align: center;
+    }
+    .button + .button {
+        margin-left: 30px;
+    }
 }
 @media all and (min-width: 950px) {
     #sidebar {
