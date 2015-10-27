@@ -96,9 +96,10 @@ a {
     color: #1F1F1F;
 }
 #menu a:hover, #menu .current_page_item a {
-    background: url(../img/img01.jpg) repeat;
+    /*background: url(../img/img01.jpg) repeat;*/
     text-decoration: none;
     color: #FFFFFF;
+    background-color: black;
 }
 @media all and (min-width: 600px) {
     #menu li {
@@ -138,30 +139,35 @@ a {
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
-.post .title {
+.title {
     padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
 }
-.post .title a {
+.title a {
     border: none;
     text-decoration: none;
     color: #222222;
 }
-.post .meta {
-    margin-bottom: 30px;
+.meta {
+    margin-bottom: 20px;
     padding: 10px 0px 0px 0px;
     text-align: left;
     font-family: 'Abel', sans-serif;
     font-size: 1.2em;
     font-weight: 300;
 }
-.post .meta .date {
+.date {
     float: left;
 }
-.post .meta .posted {
+.posted {
     float: right;
 }
-.post .entry {
+.meta::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
 }
