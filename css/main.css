@@ -37,9 +37,6 @@ a {
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
-.container {
-    margin: 0px auto;
-}
 /* Header */
 #header-wrapper {
     overflow: hidden;
