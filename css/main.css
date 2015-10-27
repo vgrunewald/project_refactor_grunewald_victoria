@@ -55,7 +55,7 @@ a {
 /* Logo */
 #logo {
     margin: 0;
-    padding: 0;
+    padding-left: 10px;
     color: #FFFFFF;
 }
 #logo h1 {
