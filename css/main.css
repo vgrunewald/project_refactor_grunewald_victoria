@@ -166,7 +166,6 @@ a {
 .more {
     display: block;
     float: left;
-    width: 88px;
     padding: 5px 5px;
     margin-right: 10px;
     background: #222222;
@@ -177,7 +176,6 @@ a {
 .comments {
     display: block;
     float: left;
-    width: 88px;
     padding: 5px 5px;
     background: #222222;
     color: #FFFFFF;
