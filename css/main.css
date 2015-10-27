@@ -248,16 +248,13 @@ a {
 /* Footer */
 #footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 #footer p {
-    margin: 0;
-    padding-top: 10px;
     letter-spacing: 1px;
-    line-height: normal;
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
+    margin-top: 20px;
 }
 
