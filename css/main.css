@@ -111,7 +111,7 @@ a {
 /* Page */
 #page {
     margin: 0 auto;
-    padding: 30px 5px;
+    padding: 30px 10px;
 }
 #page::after {
     content: "";
@@ -193,6 +193,9 @@ a {
 #sidebar ul li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
+}
+#sidebar ul li a:hover {
+    text-decoration: none;
 }
 #sidebar h2 {
     padding: 0px 0px 30px 0px;
