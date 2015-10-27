@@ -186,6 +186,17 @@ a {
 .button + .button {
     margin-top: 5px;
 }
+@media all and (min-width: 950px) {
+    #sidebar {
+        float: left;
+        width: calc(100%/3-1.5em);
+    }
+    #content {
+        float: right;
+        margin-right: 1.5em;
+        width: calc(100%/3 * 2);
+    }
+}
 /* Sidebar */
 #sidebar {
     margin: 0;
