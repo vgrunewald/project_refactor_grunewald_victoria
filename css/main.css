@@ -47,9 +47,6 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 /* Header */
-#header-wrapper {
-    overflow: hidden;
-}
 #header {
     margin: 0 auto;
     padding: 0px 0px;
@@ -105,6 +102,11 @@ a {
     background: url(../img/img01.jpg) repeat;
     text-decoration: none;
     color: #FFFFFF;
+}
+/* Banner */
+#banner img {
+    height: auto;
+    width: 100%;
 }
 /* Page */
 #page {
@@ -226,8 +228,4 @@ a {
     text-align: center;
     color: #5E5E5E;
 }
-/* Banner */
-#banner img {
-    height: auto;
-    width: 100%;
-}
+
