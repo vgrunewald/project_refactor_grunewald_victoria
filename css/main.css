@@ -227,9 +227,7 @@ a {
     color: #5E5E5E;
 }
 /* Banner */
-#banner {
-    margin: 0px auto;
+#banner img {
     height: auto;
     width: 100%;
-    background: url(../img/img03.png) no-repeat left bottom;
 }
