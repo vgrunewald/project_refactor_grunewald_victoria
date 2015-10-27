@@ -100,6 +100,12 @@ a {
     text-decoration: none;
     color: #FFFFFF;
 }
+@media all and (min-width: 600px ) {
+    #menu li {
+        display: inline-block;
+        width: calc(100%/5);
+    }
+}
 /* Banner */
 #banner img {
     height: auto;
