@@ -144,6 +144,12 @@ a {
     font-size: 16px;
     font-weight: 300;
 }
+.post .meta .date {
+    float: left;
+}
+.post .meta .posted {
+    float: right;
+}
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
