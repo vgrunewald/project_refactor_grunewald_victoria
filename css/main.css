@@ -103,16 +103,15 @@ a {
 @media all and (min-width: 600px) {
     #menu li {
         display: inline-block;
-        width: calc((100%/5)-1); /*Something not right here!*/
+        width: calc(100%/5);
     }
 }
-@media all and (min-width: 850px) {
+@media all and (min-width: 950px) { /*Why Homepage not centered?*/
     #logo {
         float: left;
     }
     #menu {
         float: right;
-        ;
     }
     #menu a {
         margin-right: 1px;
