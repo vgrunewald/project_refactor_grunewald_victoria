@@ -89,8 +89,7 @@ a {
 #menu a {
     display: block;
     line-height: 100px;
-    margin-bottom: 1px;
-    padding: 0px 30px;
+    margin-bottom: 30px;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
