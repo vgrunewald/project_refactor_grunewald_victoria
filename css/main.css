@@ -96,7 +96,7 @@ a {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #1F1F1F;
 }
 #menu a:hover, #menu .current_page_item a {
@@ -114,11 +114,11 @@ a {
 @media all and (min-width: 950px) {
     #logo {
         float: left;
-        width: calc(100%/3);
+        width: calc(100%/2);
     }
     #menu {
         float: right;
-        width: calc(100%/3*2);
+        width: calc(100%/2);
     }
     #menu a {
         margin-right: 1px;
