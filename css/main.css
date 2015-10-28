@@ -62,17 +62,12 @@ a {
     padding-left: 10px;
     color: #FFFFFF;
 }
-#logo h1 {
-    line-height: 120px;
-    letter-spacing: -2px;
-}
 #logo h1 a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-}
-#logo a {
     text-decoration: none;
-    color: #000000;
+    line-height: 120px;
+    letter-spacing: -2px;
 }
 /* Menu */
 #menu {
