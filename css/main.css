@@ -88,7 +88,7 @@ a {
 }
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 60px;
     margin-bottom: 30px;
     text-decoration: none;
     text-align: center;
@@ -127,8 +127,9 @@ a {
 #banner img {
     height: auto;
     width: 100%;
-    padding-bottom: 40px;
-    background: url(../img/img03.png) no-repeat left bottom;
+    padding-bottom: 4%;
+    background: url(../img/img03.png) no-repeat center bottom;
+    background-size: 100%;
 }
 /* Page */
 #page {
