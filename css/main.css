@@ -158,7 +158,7 @@ a {
     background-size: 100%;
 }
 
-/* Page */
+/* Main */
 main {
     margin: 0 auto;
     padding: 30px 10px;
@@ -170,7 +170,7 @@ main::after {
     clear: both;
 }
 
-/* Content */
+/* Main Content */
 .post {
     overflow: hidden;
     margin-bottom: 40px;
